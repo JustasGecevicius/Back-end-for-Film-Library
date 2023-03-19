@@ -1,0 +1,30 @@
+{
+  "name": "back-end-for-film-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": " nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustasGecevicius/Back-end-for-Film-Library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustasGecevicius/Back-end-for-Film-Library/issues"
+  },
+  "homepage": "https://github.com/JustasGecevicius/Back-end-for-Film-Library#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
